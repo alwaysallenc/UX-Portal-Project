@@ -1,0 +1,75 @@
+h2{
+  font-family: 'Allerta Stencil', sans-serif;
+  text-align: left;
+}
+img{
+  float: left;
+  margin-right: 10px;
+}
+a{
+  font-size: 20px;
+}
+.blank{
+  height: 50px;
+}
+.collapsible {
+  background-color: #eee;
+  color: #grey;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: 1px solid dark grey;
+  text-align: left;
+  outline: none;
+  font-size: 30px;
+}
+
+.active, .collapsible:hover {
+  background-color: #ccc;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+.collapsible:after {
+    content: '\02795';
+    font-size: 13px;
+    color: white;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2796";
+}
+
+.accordion-option {
+  width: 100%;
+  float: left;
+  clear: both;
+  margin: 15px 0;
+}
+
+.accordion-option .title {
+  font-size: 20px;
+  font-weight: bold;
+  float: left;
+  padding: 0;
+  margin: 0;
+}
+.accordion-option .toggle-accordion {
+  float: right;
+  font-size: 16px;
+  color: #6a6c6f;
+}
+
+.accordion-option .toggle-accordion:before {
+  content: "Expand All";
+}
+
+.accordion-option .toggle-accordion.active:before {
+  content: "Collapse All";
+}

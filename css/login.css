@@ -1,0 +1,107 @@
+#container-box {
+	width: 400px;
+	height: 800px;
+	margin: auto;
+	padding:0;
+	background-color: #fff;
+	display:flex;
+	flex-direction: column;
+}
+
+.info {
+	padding: 20px;
+	background-color: #f44336;
+	color: white;
+}
+
+.closebtn {
+	margin-left: 15px;
+color: white;
+font-weight: bold;
+float: right;
+font-size: 22px;
+line-height: 20px;
+cursor: pointer;
+transition: 0.3s;
+}
+.item-box {
+	text-align: center;
+	padding: 0;
+	display: block;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+.double-row {
+flex-grow: 2;
+}
+
+.single-row {
+flex-grow: 1;
+}
+
+#una-icon {
+  width: 400px;
+	height: 400px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+#title-box>h1 {
+	font-weight: 70;
+	text-align: center;
+}
+
+#app-inputs-top, #app-inputs-bottom  {
+	border: solid 0.75px gray;
+	width: 100%;
+	margin: auto;
+  padding: 9px;
+}
+
+#app-inputs-top {
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;}
+
+#app-inputs-bottom {
+	border-top: 0;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+
+label {
+  width: 25%;
+  display: inline-block;
+	float: left;
+  text-align: left;
+  font-weight: 70;
+  padding-right: 0;
+}
+
+input[type=text], input[type=password] {
+    caret-color: #4CAF50;
+		border: 0;
+    padding-left: 0;
+    color: black;
+}
+
+button {
+    background-color: #ffffff;
+    color: #4c4c4c;
+    border: none;
+    cursor: pointer;
+}
+
+
+.activeButton {
+   border: none;
+    cursor: pointer;
+   color: purple;
+}
+a{
+	color: purple;
+	margin: 5px;
+}
